@@ -16,7 +16,6 @@ class NumberCalNotifier extends ChangeNotifier {
   String _outputNumber = "0";
   String preNumber = "";
   String afterNumber = "";
-  get outputNumber => _outputNumber;
 
   void displayNum(String num) {
     if (_outputNumber != '0' &&
